@@ -29,4 +29,5 @@ jobs:
       - name: automate-tests
         run: |
           cd $GITHUB_WORKSPACE
+          chmod +x .github/workflows/automate-tests.sh
           .github/workflows/automate-tests.sh
