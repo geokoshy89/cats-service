@@ -5,7 +5,7 @@ echo "Running as $GITHUB_USERNAME"
 git config --global user.email "<>"
 git config --global user.name "CI automation"
 START=$(cd `dirname $0`/../.. && pwd)
-RC= $HOME/Desktop/release_clone
+RC=$HOME/Desktop/release_clone
 RCURL=https://${GITHUB_USERNAME}:${GIT_PASSWORD}@github.com:geokoshy89/cats-service.git
 BACKUP_GIT_CONFIG=$HOME/Desktop/backup-git-config/
 function promote_code(){
