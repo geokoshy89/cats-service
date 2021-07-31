@@ -4,7 +4,6 @@ env:
   ARTIFACTORY_PASSWORD: ${{ secrets.ARTIFACTORY_PASSWORD  }}
   GIT_USERNAME: ${{ secrets.GIT_USERNAME  }}
   GIT_PASSWORD: ${{ secrets.GIT_PASSWORD  }}
-
 on:
   push:
      branches: [ga_demo]
