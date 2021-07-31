@@ -6,7 +6,7 @@ git config --global user.email "<>"
 git config --global user.name "CI automation"
 START=$(cd `dirname $0`/../.. && pwd)
 RC=$HOME/Desktop/release_clone
-RCURL=https://${GIT_USERNAME}:${GIT_PASSWORD}@github.com:geokoshy89/cats-service.git
+RCURL=https://${GIT_USERNAME}:${GIT_PASSWORD}@github.com/geokoshy89/cats-service.git
 BACKUP_GIT_CONFIG=$HOME/Desktop/backup-git-config/
 function promote_code(){
   rm -rf && mkdir -p $RC||echo "Could not create clone directory"
