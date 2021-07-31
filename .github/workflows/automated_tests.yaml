@@ -9,8 +9,8 @@ on:
   pull_request:
     branches: [main]
   repository_dispatch:
-     type: cat-meow
-job:
+     types: cat-meow
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
