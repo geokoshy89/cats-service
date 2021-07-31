@@ -6,8 +6,8 @@ env:
   GIT_PASSWORD: ${{secrets.GIT_PASSWORD}}
 on:
   push: [ga_demo]
-  pull_request:
-    branches: [main]
+#  pull_request:
+#    branches: [main]
   repository_dispatch:
      types: cat-meow
 jobs:
